@@ -18,6 +18,7 @@ Comment:
 Files: debian/*
 Copyright: 2002-2003, Sven Velt <sven@velt.de>
            2014,      Markus Koschany <apo@gambaru.de>
+License: GPL-2
 
 License: GPL-2
  On Debian systems, the full text of the GNU General Public License
