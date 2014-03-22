@@ -8,7 +8,7 @@ Standards-Version: 3.9.5
 
 Package: tuxpuck
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: "Shufflepuck Cafe" Clone
  Anyone remember "Shufflepuck Cafe" for the Amiga/AtariST?
  I do.
