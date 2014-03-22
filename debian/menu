@@ -1,2 +1,6 @@
-?package(tuxpuck):needs="X11" section="Games/Arcade"\
-  title="Tuxpuck" command="/usr/games/tuxpuck"
+?package(tuxpuck):needs="X11" \
+  section="Games/Arcade" \
+  title="Tuxpuck" \
+  longtitle="Tuxpuck - a clone of "Shufflepuck Cafe" \
+  command="/usr/games/tuxpuck" \
+  icon="/usr/share/pixmaps/tuxpuck.xpm"
