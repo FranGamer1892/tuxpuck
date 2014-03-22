@@ -1,2 +1,3 @@
 Makefile.patch
 buffer-overflow.patch
+libpng-transition.patch
