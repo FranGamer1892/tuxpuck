@@ -4,8 +4,9 @@ Subject: Makefile
 
 Forwarded: no
 ---
- Makefile | 14 +++++++-------
- 1 file changed, 7 insertions(+), 7 deletions(-)
+ Makefile       | 14 +++++++-------
+ utils/Makefile |  6 +++---
+ 2 files changed, 10 insertions(+), 10 deletions(-)
 
 diff --git a/Makefile b/Makefile
 index f1192bc..a7044ba 100644
@@ -39,3 +40,24 @@ index f1192bc..a7044ba 100644
 +	install -d $(DESTDIR)/usr/share/man/man6
 +	install -m755 $(NAME) $(DESTDIR)/usr/games
 +	install -m644 man/$(NAME).6.gz $(DESTDIR)/usr/share/man/man6
+diff --git a/utils/Makefile b/utils/Makefile
+index 0566f28..23f1dfd 100644
+--- a/utils/Makefile
++++ b/utils/Makefile
+@@ -6,13 +6,13 @@ CFLAGS		+= -g -Wall -Werror
+ all : ttf2font data2c anim
+ 
+ ttf2font : ttf2font.c
+-	$(CC) $(CFLAGS) ttf2font.c `freetype-config --cflags --libs` -o ttf2font
++	$(CC) $(CFLAGS) $(CPPFLAGS) ttf2font.c `freetype-config --cflags --libs` -o ttf2font
+ 
+ data2c : data2c.c
+-	$(CC) $(CFLAGS) data2c.c `sdl-config --cflags --libs` -o data2c
++	$(CC) $(CFLAGS) $(CPPFLAGS) data2c.c `sdl-config --cflags --libs` -o data2c
+ 
+ anim : anim.c
+-	$(CC) $(CFLAGS) anim.c `sdl-config --cflags --libs` -o anim
++	$(CC) $(CFLAGS) $(CPPFLAGS) anim.c `sdl-config --cflags --libs` -o anim
+ 
+ clean :
+ 	rm -f *~ data2c ttf2font anim
