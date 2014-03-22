@@ -37,6 +37,7 @@ tuxpuck (0.8.2-3) unstable; urgency=medium
     (Closes: #738048)
   * Add source/include-binaries.
   * Add watch file even if there is nothing to watch anymore.
+  * export DEB_BUILD_MAINT_OPTIONS = hardening=+all.
 
  -- Markus Koschany <apo@gambaru.de>  Sat, 22 Mar 2014 17:35:33 +0100
 
