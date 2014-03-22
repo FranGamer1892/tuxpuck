@@ -2,13 +2,22 @@ Source: tuxpuck
 Section: games
 Priority: optional
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
-Uploaders: Markus Koschany <apo@gambaru.de>
-Build-Depends: debhelper (>= 9), libsdl1.2-dev, libvorbis-dev, libpng12-dev, libjpeg-dev, libfreetype6-dev
+Uploaders:
+ Markus Koschany <apo@gambaru.de>
+Build-Depends:
+ debhelper (>= 9),
+ libfreetype6-dev,
+ libjpeg-dev,
+ libpng12-dev,
+ libsdl1.2-dev,
+ libvorbis-dev
 Standards-Version: 3.9.5
 
 Package: tuxpuck
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
 Description: "Shufflepuck Cafe" Clone
  Anyone remember "Shufflepuck Cafe" for the Amiga/AtariST?
  I do.
