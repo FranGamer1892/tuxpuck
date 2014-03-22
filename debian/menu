@@ -1,5 +1,5 @@
 ?package(tuxpuck):needs="X11" \
-  section="Games/Arcade" \
+  section="Games/Action" \
   title="Tuxpuck" \
   longtitle="Tuxpuck - a clone of "Shufflepuck Cafe" \
   command="/usr/games/tuxpuck" \
