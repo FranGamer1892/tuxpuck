@@ -1,10 +1,9 @@
 tuxpuck (0.8.2-3) unstable; urgency=medium
 
-  * New maintainer Debian Games Team. Add myself to Uploaders. (Closes: #739095)
+  * New maintainer Debian Games Team.
+    - Add myself to Uploaders. (Closes: #739095)
   * Drop dirs file.
   * Simplify debian/rules by using dh sequencer.
-  * Update menu file. Add longtitle and icon entry. Change menu section to
-    Games/Action.
   * debian/control:
     - Require debhelper >= 9.
     - Add compat file and use compat level 9 (was 3).
@@ -12,17 +11,24 @@ tuxpuck (0.8.2-3) unstable; urgency=medium
     - Add ${misc:Depends} substvar to binary package.
     - Switch from libpng12-dev to libpng-dev. (Closes: #662528).
     - Add VCS and homepage fields.
+    - Drop libfreetype6-dev from Build-Depends. Not needed.
   * wrap-and-sort -sa.
   * Switch to source format 3.0 (quilt)
   * Add Makefile.patch and buffer-overflow.patch.
     Instead of using the old 1.0 format, create two separate patches.
+  * Update Makefile.patch and do not link against -lz, -lvorbis and -logg to
+    avoid useless dependencies.
+  * Add $(CPPFLAGS) and $(LDFLAGS) to Makefile for hardening.
   * Update debian/copyright to copyright format 1.0.
   * Drop manpages file.
   * Add install file.
+  * Update menu file. Add longtitle and icon entry. Change menu section to
+    Games/Action.
   * Add tuxpuck.desktop.
     Merge desktop file from Ubuntu and add a comment in German and keywords.
     Thanks to Emmet Hikory. (Closes: #626223)
-  * Add tuxpuck.png and tuxpuck.xpm icons. (Closes: #738048)
+  * Add tuxpuck.png and tuxpuck.xpm icons created from tux.png.
+    (Closes: #738048)
   * Add source/include-binaries.
   * Add watch file even if there is nothing to watch anymore.
 
