@@ -18,18 +18,21 @@ tuxpuck (0.8.2-3) unstable; urgency=medium
     Instead of using the old 1.0 format, create two separate patches.
   * Update Makefile.patch and do not link against -lz, -lvorbis and -logg to
     avoid useless dependencies.
-  * Add $(CPPFLAGS) and $(LDFLAGS) to Makefile for hardening.
-  * Add libpng-transition.patch to avoid a FTBFS with the upcoming
+  * Add $(CPPFLAGS) and $(LDFLAGS) to Makefiles for hardening.
+  * Add and update libpng-transition.patch to avoid a FTBFS with the upcoming
     libpng-transition. Thanks to Nobuhiro Iwamatsu for the report and patch!
     (Closes: #649809)
+  * Add FTBFS-with-fread.patch to prevent a FTBFS due to possible unused
+    results of fread in anim.c. Thanks to Ilya Barygin for the report and patch.
+    (Closes: #552022)
   * Update debian/copyright to copyright format 1.0.
   * Drop manpages file.
   * Add install file.
   * Update menu file. Add longtitle and icon entry. Change menu section to
     Games/Action.
-  * Add tuxpuck.desktop.
-    Merge desktop file from Ubuntu and add a comment in German and keywords.
-    Thanks to Emmet Hikory. (Closes: #626223)
+  * Add tuxpuck.desktop file.
+    - Merge desktop file from Ubuntu and add a comment in German and keywords.
+      Thanks to Emmet Hikory. (Closes: #626223)
   * Add tuxpuck.png and tuxpuck.xpm icons created from tux.png.
     (Closes: #738048)
   * Add source/include-binaries.
