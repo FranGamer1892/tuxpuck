@@ -1,3 +1,4 @@
 Makefile.patch
 buffer-overflow.patch
 libpng-transition.patch
+FTBFS-with-fread.patch
