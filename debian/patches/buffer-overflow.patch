@@ -1,7 +1,8 @@
-From: Markus Koschany <apo@gambaru.de>
+From: Steve Kemp <skx@debian.org>
 Date: Sat, 22 Mar 2014 16:04:16 +0100
 Subject: buffer overflow
 
+Bug: https://bugs.debian.org/203508
 Forwarded: no
 ---
  tuxpuck.c | 4 +++-
