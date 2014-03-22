@@ -3,13 +3,27 @@ Date: Sat, 22 Mar 2014 16:04:03 +0100
 Subject: Makefile
 
 ---
- Makefile | 8 ++++----
- 1 file changed, 4 insertions(+), 4 deletions(-)
+ Makefile | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
 
 diff --git a/Makefile b/Makefile
-index f1192bc..14a1b19 100644
+index f1192bc..49db88e 100644
 --- a/Makefile
 +++ b/Makefile
+@@ -17,11 +17,11 @@ ifdef COMSPEC
+ endif
+ 
+ %.o	: %.c
+-	$(CC) $(CFLAGS) `sdl-config --cflags` -c -o $@ $<
++	$(CC) $(CFLAGS) $(CPPFLAGS) `sdl-config --cflags` -c -o $@ $<
+ 
+ $(NAME) : $(OBJS)
+ 	cd data; $(MAKE)
+-	$(CC) $(CFLAGS) $(OBJS) data/libdata.a `sdl-config --libs` -lm -lpng \
++	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(OBJS) data/libdata.a `sdl-config --libs` -lm -lpng \
+ 	-ljpeg -lz -lvorbisfile -lvorbis -logg -o $(NAME)
+ 
+ w32icon.o : data/icons/tuxpuck.ico
 @@ -52,7 +52,7 @@ dist :
  	rm -Rf $(NAME)-$(VERSION)
  
