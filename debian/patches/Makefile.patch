@@ -1,0 +1,24 @@
+From: Markus Koschany <apo@gambaru.de>
+Date: Sat, 22 Mar 2014 16:04:03 +0100
+Subject: Makefile
+
+---
+ Makefile | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index f1192bc..14a1b19 100644
+--- a/Makefile
++++ b/Makefile
+@@ -52,7 +52,7 @@ dist :
+ 	rm -Rf $(NAME)-$(VERSION)
+ 
+ install : $(NAME)
+-	install -d $(DESTDIR)/usr/bin
+-	install -d $(DESTDIR)/usr/man/man6
+-	install -m755 $(NAME) $(DESTDIR)/usr/bin
+-	install -m644 man/$(NAME).6.gz $(DESTDIR)/usr/man/man6
++	install -d $(DESTDIR)/usr/games
++	install -d $(DESTDIR)/usr/share/man/man6
++	install -m755 $(NAME) $(DESTDIR)/usr/games
++	install -m644 man/$(NAME).6.gz $(DESTDIR)/usr/share/man/man6
