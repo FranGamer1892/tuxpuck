@@ -1,6 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: TuxPuck
 Source: http://home.no.net/munsuun/tuxpuck
+Comment:
+ The original project website is no longer available. Please see also
+ https://wiki.debian.org/Games/TuxPuck for more information.
 
 Files: *
 Copyright: 2000-2002, Jacob "noork" Kroon, d00jkr@efd.lth.se
@@ -9,7 +12,8 @@ Copyright: 2000-2002, Jacob "noork" Kroon, d00jkr@efd.lth.se
                       A. Schiffler, aschiffler@cogeco.ca
                       Sven Velt, sven@velt.de
 License: GPL-2
- See also thanks.txt for a list of contributors for TuxPack.
+Comment:
+ See also thanks.txt for a complete list of contributors for TuxPack.
 
 Files: debian/*
 Copyright: 2002-2003, Sven Velt <sven@velt.de>
