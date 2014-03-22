@@ -19,6 +19,9 @@ tuxpuck (0.8.2-3) unstable; urgency=medium
   * Update Makefile.patch and do not link against -lz, -lvorbis and -logg to
     avoid useless dependencies.
   * Add $(CPPFLAGS) and $(LDFLAGS) to Makefile for hardening.
+  * Add libpng-transition.patch to avoid a FTBFS with the upcoming
+    libpng-transition. Thanks to Nobuhiro Iwamatsu for the report and patch!
+    (Closes: #649809)
   * Update debian/copyright to copyright format 1.0.
   * Drop manpages file.
   * Add install file.
