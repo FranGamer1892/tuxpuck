@@ -3,14 +3,14 @@ Date: Sat, 22 Mar 2014 16:04:03 +0100
 Subject: Makefile
 
 ---
- Makefile | 12 ++++++------
- 1 file changed, 6 insertions(+), 6 deletions(-)
+ Makefile | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
 
 diff --git a/Makefile b/Makefile
-index f1192bc..49db88e 100644
+index f1192bc..2797a9a 100644
 --- a/Makefile
 +++ b/Makefile
-@@ -17,11 +17,11 @@ ifdef COMSPEC
+@@ -17,12 +17,12 @@ ifdef COMSPEC
  endif
  
  %.o	: %.c
@@ -20,10 +20,12 @@ index f1192bc..49db88e 100644
  $(NAME) : $(OBJS)
  	cd data; $(MAKE)
 -	$(CC) $(CFLAGS) $(OBJS) data/libdata.a `sdl-config --libs` -lm -lpng \
+-	-ljpeg -lz -lvorbisfile -lvorbis -logg -o $(NAME)
 +	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(OBJS) data/libdata.a `sdl-config --libs` -lm -lpng \
- 	-ljpeg -lz -lvorbisfile -lvorbis -logg -o $(NAME)
++	-ljpeg -lz -o $(NAME)
  
  w32icon.o : data/icons/tuxpuck.ico
+ 	echo AppIcon ICON "data/icons/tuxpuck.ico" > temp.rc
 @@ -52,7 +52,7 @@ dist :
  	rm -Rf $(NAME)-$(VERSION)
  
