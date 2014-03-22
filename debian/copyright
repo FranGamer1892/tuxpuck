@@ -1,15 +1,15 @@
-This package was debianized by Sven Velt <sven@velt.de> on
-Mon,  4 Feb 2002 20:59:07 +0100.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: TuxPuck
+Source: http://home.no.net/munsuun/tuxpuck
 
-It was downloaded from http://home.no.net/munsuun/tuxpuck/
+Files: *
+Copyright: 2000-2002, Jacob "noork" Kroon, d00jkr@efd.lth.se
+License: GPL-2
 
-Upstream Author: Jacob "noork" Kroon, d00jkr@efd.lth.se
+Files: debian/*
+Copyright: 2002-2003, Sven Velt <sven@velt.de>
+           2014,      Markus Koschany <apo@gambaru.de>
 
-Copyright:
-
-This software is copyright (c) 2000-2002 Jacob Kroon.
-
-You are free to distribute this software under the terms of
-the GNU General Public License.
-On Debian systems, the complete text of the GNU General Public
-License can be found in /usr/share/common-licenses/GPL file.
+License: GPL-2
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file /usr/share/common-licenses/GPL-2.
