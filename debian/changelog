@@ -1,0 +1,64 @@
+tuxpuck (0.8.2-2.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "Please Build-Depends on libjpeg-dev, not libjpeg62-dev":
+    do as the bug report requests.
+    (Closes: #634637)
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 06 Nov 2011 17:30:35 +0100
+
+tuxpuck (0.8.2-2.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * libpng transition (Closes: #328335).
+
+ -- Luk Claes <luk@debian.org>  Thu, 27 Oct 2005 20:13:39 +0200
+
+tuxpuck (0.8.2-2) unstable; urgency=low
+
+  * corrected non-critical buffer overflow, thanks to Steve Kamp for reporting
+    and fixing this (closes: #203508)
+
+  * Upload sponsored by Norbert Tretkowski <nobse@debian.org>
+
+ -- Sven Velt <sven@velt.de>  Thu, 31 Jul 2003 15:08:23 +0200
+
+tuxpuck (0.8.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Linked against new libvorbis* (closes: #185318)
+
+ -- Sven Velt <sven@velt.de>  Fri, 21 Mar 2003 17:03:07 +0000
+
+tuxpuck (0.8.1-1) unstable; urgency=low
+
+  * New upstream release
+  * corrected typo in manpage (closes: #160052)
+  * no more problems with ttf (closes: #156430)
+  * linked against new libvorbis* (closes: #154783, #165116, #166504)
+  * put manpage in correct directory (closes: #147333)
+
+ -- Sven Velt <sven@velt.de>  Mon, 28 Oct 2002 23:06:42 +0100
+
+tuxpuck (0.7.109-2) unstable; urgency=low
+
+  * Correct install directory of binary (closes: #143438)
+
+ -- Sven Velt <sven@velt.de>  Mon, 15 Apr 2002 10:45:18 +0200
+
+tuxpuck (0.7.109-1) unstable; urgency=low
+
+  * Build warning/error on ia64 should be fixed by new upstream release
+    (closes: bug#142606)
+  * New upstream releas
+
+ -- Sven Velt <sven@velt.de>  Sun, 14 Apr 2002 22:13:43 +0200
+ 
+tuxpuck (0.7.91-1) unstable; urgency=low
+
+  * Added "install"-target to Makefile
+  * Added manpage
+  * Initial Release (closes: bug#139013)
+
+ -- Sven Velt <sven@velt.de>  Thu, 21 Mar 2002 12:51:14 +0100
+ 

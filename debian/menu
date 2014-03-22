@@ -1,0 +1,2 @@
+?package(tuxpuck):needs="X11" section="Games/Arcade"\
+  title="Tuxpuck" command="/usr/games/tuxpuck"

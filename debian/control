@@ -1,0 +1,18 @@
+Source: tuxpuck
+Section: games
+Priority: optional
+Maintainer: Sven Velt <sven@velt.de>
+Uploaders: Norbert Tretkowski <nobse@debian.org>
+Build-Depends: debhelper, libsdl1.2-dev, libvorbis-dev, libpng12-dev, libjpeg-dev, libfreetype6-dev
+Standards-Version: 3.6.0
+
+Package: tuxpuck
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: "Shufflepuck Cafe" Clone
+ Anyone remember "Shufflepuck Cafe" for the Amiga/AtariST?
+ I do.
+ .
+ TuxPuck is a shufflepuck game written in C using SDL. The player moves
+ a pad around a board and tries to shoot down the puck through the
+ opponents defense.
