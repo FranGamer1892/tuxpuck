@@ -7,7 +7,7 @@ Subject: Makefile
  1 file changed, 7 insertions(+), 7 deletions(-)
 
 diff --git a/Makefile b/Makefile
-index f1192bc..2797a9a 100644
+index f1192bc..1086070 100644
 --- a/Makefile
 +++ b/Makefile
 @@ -17,12 +17,12 @@ ifdef COMSPEC
@@ -22,7 +22,7 @@ index f1192bc..2797a9a 100644
 -	$(CC) $(CFLAGS) $(OBJS) data/libdata.a `sdl-config --libs` -lm -lpng \
 -	-ljpeg -lz -lvorbisfile -lvorbis -logg -o $(NAME)
 +	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(OBJS) data/libdata.a `sdl-config --libs` -lm -lpng \
-+	-ljpeg -lz -o $(NAME)
++	-ljpeg -lvorbisfile -lvorbis -o $(NAME)
  
  w32icon.o : data/icons/tuxpuck.ico
  	echo AppIcon ICON "data/icons/tuxpuck.ico" > temp.rc
