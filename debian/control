@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Uploaders: Markus Koschany <apo@gambaru.de>
 Build-Depends: debhelper (>= 9), libsdl1.2-dev, libvorbis-dev, libpng12-dev, libjpeg-dev, libfreetype6-dev
-Standards-Version: 3.6.0
+Standards-Version: 3.9.5
 
 Package: tuxpuck
 Architecture: any
