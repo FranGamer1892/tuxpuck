@@ -4,7 +4,12 @@ Source: http://home.no.net/munsuun/tuxpuck
 
 Files: *
 Copyright: 2000-2002, Jacob "noork" Kroon, d00jkr@efd.lth.se
+                      Sam Lantinga, slouken@libsdl.org
+                      Philippe Lavoie, lavoie@zeus.genie.uottawa.ca
+                      A. Schiffler, aschiffler@cogeco.ca
+                      Sven Velt, sven@velt.de
 License: GPL-2
+ See also thanks.txt for a list of contributors for TuxPack.
 
 Files: debian/*
 Copyright: 2002-2003, Sven Velt <sven@velt.de>
