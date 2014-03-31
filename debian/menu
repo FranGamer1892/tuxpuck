@@ -1,6 +1,6 @@
 ?package(tuxpuck):needs="X11" \
   section="Games/Action" \
   title="Tuxpuck" \
-  longtitle="Tuxpuck - a clone of Shufflepuck Cafe" \
+  longtitle="Tuxpuck - air hockey game for single players" \
   command="/usr/games/tuxpuck" \
   icon="/usr/share/pixmaps/tuxpuck.xpm"
