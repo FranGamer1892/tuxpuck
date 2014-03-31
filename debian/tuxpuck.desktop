@@ -8,5 +8,5 @@ Icon=tuxpuck
 Terminal=false
 Type=Application
 StartupNotify=false
-Categories=Game;ArcadeGame;
+Categories=Game;SportsGame;
 Keywords=tux;puck;cafe;shufflepuck;arcana;
