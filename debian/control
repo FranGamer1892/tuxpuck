@@ -20,10 +20,7 @@ Architecture: any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends}
-Description: "Shufflepuck Cafe" Clone
- Anyone remember "Shufflepuck Cafe" for the Amiga/AtariST?
- I do.
- .
- TuxPuck is a shufflepuck game written in C using SDL. The player moves
- a pad around a board and tries to shoot down the puck through the
- opponents defense.
+Description: air hockey game for single players
+ TuxPuck is an air hockey game and clone of the Amiga/Atari ST game Shufflepuck
+ Café. The player moves a bat around a table and tries to knock the puck past
+ the opponent's defense. After someone has reached 15 points, the match is over.
