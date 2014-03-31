@@ -23,4 +23,5 @@ Depends:
 Description: air hockey game for single players
  TuxPuck is an air hockey game and clone of the Amiga/Atari ST game Shufflepuck
  Café. The player moves a bat around a table and tries to knock the puck past
- the opponent's defense. After someone has reached 15 points, the match is over.
+ the opponent's defense. After either party has reached 15 points, the match is
+ over.

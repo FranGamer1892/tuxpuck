@@ -6,11 +6,11 @@ Comment:
  https://wiki.debian.org/Games/TuxPuck for more information.
 
 Files: *
-Copyright: 2000-2002, Jacob "noork" Kroon, d00jkr@efd.lth.se
-                      Sam Lantinga, slouken@libsdl.org
-                      Philippe Lavoie, lavoie@zeus.genie.uottawa.ca
-                      A. Schiffler, aschiffler@cogeco.ca
-                      Sven Velt, sven@velt.de
+Copyright: 2000-2002, Jacob "noork" Kroon <d00jkr@efd.lth.se>
+                      Sam Lantinga <slouken@libsdl.org>
+                      Philippe Lavoie <lavoie@zeus.genie.uottawa.ca>
+                      A. Schiffler <aschiffler@cogeco.ca>
+                      Sven Velt <sven@velt.de>
 License: GPL-2
 Comment:
  See also thanks.txt for a complete list of contributors for TuxPack.

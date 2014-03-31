@@ -1,5 +1,6 @@
 tuxpuck (0.8.2-3) unstable; urgency=medium
 
+  [ Markus Koshany ]
   * New maintainer Debian Games Team.
     - Add myself to Uploaders. (Closes: #739095)
   * Drop dirs file.
@@ -40,69 +41,68 @@ tuxpuck (0.8.2-3) unstable; urgency=medium
   * Add watch file even if there is nothing to watch anymore.
   * export DEB_BUILD_MAINT_OPTIONS = hardening=+all.
 
+  [ John Paul Adrian Glaubitz ]
+  * Clean up debian/changelog.
+  * Make formatting in debian/copyright more consistent.
+
  -- Markus Koschany <apo@gambaru.de>  Mon, 31 Mar 2014 17:53:25 +0200
 
 tuxpuck (0.8.2-2.2) unstable; urgency=low
 
   * Non-maintainer upload.
-  * Fix "Please Build-Depends on libjpeg-dev, not libjpeg62-dev":
-    do as the bug report requests.
-    (Closes: #634637)
+  * Change build dependency from libjpeg62-dev to libjpeg-dev. (Closes: #634637)
 
  -- gregor herrmann <gregoa@debian.org>  Sun, 06 Nov 2011 17:30:35 +0100
 
 tuxpuck (0.8.2-2.1) unstable; urgency=low
 
   * Non-maintainer upload.
-  * libpng transition (Closes: #328335).
+  * Change build dependency from libpng2-dev to libpng12-dev. (Closes: #328335)
+  * Add missing quotation marks around "X11" in debian/menu.
 
  -- Luk Claes <luk@debian.org>  Thu, 27 Oct 2005 20:13:39 +0200
 
 tuxpuck (0.8.2-2) unstable; urgency=low
 
-  * corrected non-critical buffer overflow, thanks to Steve Kamp for reporting
-    and fixing this (closes: #203508)
-
-  * Upload sponsored by Norbert Tretkowski <nobse@debian.org>
+  * Patch tuxpuck.c to fix non-critical buffer overflow. Thanks to
+    Steve Kemp for reporting and providing a patch. (Closes: #203508)
 
  -- Sven Velt <sven@velt.de>  Thu, 31 Jul 2003 15:08:23 +0200
 
 tuxpuck (0.8.2-1) unstable; urgency=low
 
   * New upstream release
-  * Linked against new libvorbis* (closes: #185318)
+  * Relink against new libvorbis libraries. (Closes: #185318)
 
  -- Sven Velt <sven@velt.de>  Fri, 21 Mar 2003 17:03:07 +0000
 
 tuxpuck (0.8.1-1) unstable; urgency=low
 
-  * New upstream release
-  * corrected typo in manpage (closes: #160052)
-  * no more problems with ttf (closes: #156430)
-  * linked against new libvorbis* (closes: #154783, #165116, #166504)
-  * put manpage in correct directory (closes: #147333)
+  * New upstream release.
+  * Fix typo in manpage. (Closes: #160052)
+  * Fix problems with ttf (Closes: #156430)
+  * Link against new libvorbis libraries. (Closes: #154783, #165116, #166504)
+  * Fix installation path of manpage. (Closes: #147333)
 
  -- Sven Velt <sven@velt.de>  Mon, 28 Oct 2002 23:06:42 +0100
 
 tuxpuck (0.7.109-2) unstable; urgency=low
 
-  * Correct install directory of binary (closes: #143438)
+  * Fix installation path of binary. (Closes: #143438)
 
  -- Sven Velt <sven@velt.de>  Mon, 15 Apr 2002 10:45:18 +0200
 
 tuxpuck (0.7.109-1) unstable; urgency=low
 
-  * Build warning/error on ia64 should be fixed by new upstream release
-    (closes: bug#142606)
-  * New upstream releas
+  * New upstream release:
+    - Fix build warning on ia64. (Closes: 142606).
 
  -- Sven Velt <sven@velt.de>  Sun, 14 Apr 2002 22:13:43 +0200
- 
+
 tuxpuck (0.7.91-1) unstable; urgency=low
 
-  * Added "install"-target to Makefile
-  * Added manpage
-  * Initial Release (closes: bug#139013)
+  * Initial release (Closes: #139013)
+    - Add install target to Makefile.
+    - Add manpage.
 
  -- Sven Velt <sven@velt.de>  Thu, 21 Mar 2002 12:51:14 +0100
- 
