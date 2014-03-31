@@ -12,6 +12,7 @@ tuxpuck (0.8.2-3) unstable; urgency=medium
     - Switch from libpng12-dev to libpng-dev. (Closes: #662528).
     - Add VCS and homepage fields.
     - Drop libfreetype6-dev from Build-Depends. Not needed.
+    - Improve package description.
   * wrap-and-sort -sa.
   * Switch to source format 3.0 (quilt)
   * Add Makefile.patch and buffer-overflow.patch.
@@ -39,7 +40,7 @@ tuxpuck (0.8.2-3) unstable; urgency=medium
   * Add watch file even if there is nothing to watch anymore.
   * export DEB_BUILD_MAINT_OPTIONS = hardening=+all.
 
- -- Markus Koschany <apo@gambaru.de>  Sun, 23 Mar 2014 19:32:22 +0100
+ -- Markus Koschany <apo@gambaru.de>  Mon, 31 Mar 2014 17:53:25 +0200
 
 tuxpuck (0.8.2-2.2) unstable; urgency=low
 
