@@ -1,3 +1,9 @@
+tuxpuck (0.8.2-4) unstable; urgency=medium
+
+  * Do not build with --parallel to prevent a race condition on buildd.
+
+ -- Markus Koschany <apo@gambaru.de>  Tue, 01 Apr 2014 10:42:25 +0200
+
 tuxpuck (0.8.2-3) unstable; urgency=medium
 
   [ Markus Koshany ]
