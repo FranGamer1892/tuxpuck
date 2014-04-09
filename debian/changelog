@@ -1,3 +1,12 @@
+tuxpuck (0.8.2-5) unstable; urgency=medium
+
+  * Readd build-dependency on libfreetype6-dev.
+    - Build-depend on libfreetype6-dev to fix FTBFS in Ubuntu due to
+      missing ft2build.h.
+      Thanks to Logan Rosen for the report. (Closes: #744046)
+
+ -- Markus Koschany <apo@gambaru.de>  Wed, 09 Apr 2014 17:07:20 +0200
+
 tuxpuck (0.8.2-4) unstable; urgency=medium
 
   * Do not build with --parallel to prevent a race condition on buildd.
