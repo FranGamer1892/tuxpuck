@@ -11,7 +11,7 @@ Build-Depends:
  libpng-dev,
  libsdl1.2-dev,
  libvorbis-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.8
 Vcs-Git: git://anonscm.debian.org/pkg-games/tuxpuck.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-games/tuxpuck.git
 Homepage: https://wiki.debian.org/Games/TuxPuck
