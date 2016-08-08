@@ -1,3 +1,11 @@
+tuxpuck (0.8.2-7) unstable; urgency=medium
+
+  * Declare compliance with Debian Policy 3.9.8.
+  * Update my e-mail address.
+  * Vcs-fields: Use https and cgit.
+
+ -- Markus Koschany <apo@debian.org>  Mon, 08 Aug 2016 13:02:22 +0200
+
 tuxpuck (0.8.2-6) unstable; urgency=medium
 
   * Add clang-FTBFS.patch.
