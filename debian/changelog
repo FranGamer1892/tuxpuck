@@ -1,3 +1,15 @@
+tuxpuck (0.8.2-8) unstable; urgency=medium
+
+  * Use compat level 11.
+  * Use the --no-parallel option. Explicitly disable parallel builds to prevent
+    a race condition.
+  * Drop deprecated menu file and xpm icon.
+  * Use https for Format field.
+  * Declare compliance with Debian Policy 4.1.3.
+  * Replace freetype-config command with pkg-config. (Closes: #892349)
+
+ -- Markus Koschany <apo@debian.org>  Thu, 08 Mar 2018 22:15:21 +0100
+
 tuxpuck (0.8.2-7) unstable; urgency=medium
 
   * Declare compliance with Debian Policy 3.9.8.
