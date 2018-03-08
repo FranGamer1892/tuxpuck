@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: TuxPuck
 Source: http://home.no.net/munsuun/tuxpuck
 Comment:
@@ -17,7 +17,7 @@ Comment:
 
 Files: debian/*
 Copyright: 2002-2003, Sven Velt <sven@velt.de>
-           2014-2016, Markus Koschany <apo@debian.org>
+           2014-2018, Markus Koschany <apo@debian.org>
 License: GPL-2
 
 License: GPL-2
