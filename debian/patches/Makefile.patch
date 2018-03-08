@@ -63,7 +63,7 @@ index 0566f28..9295d77 100644
  
  ttf2font : ttf2font.c
 -	$(CC) $(CFLAGS) ttf2font.c `freetype-config --cflags --libs` -o ttf2font
-+	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ttf2font.c `freetype-config --cflags --libs` -o ttf2font
++	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) ttf2font.c `pkg-config --cflags --libs freetype2` -o ttf2font
  
  data2c : data2c.c
 -	$(CC) $(CFLAGS) data2c.c `sdl-config --cflags --libs` -o data2c
