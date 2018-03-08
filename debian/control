@@ -5,7 +5,7 @@ Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Uploaders:
  Markus Koschany <apo@debian.org>
 Build-Depends:
- debhelper (>= 9),
+ debhelper (>= 11),
  libfreetype6-dev,
  libjpeg-dev,
  libpng-dev,
