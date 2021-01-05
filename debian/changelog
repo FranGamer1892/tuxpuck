@@ -1,3 +1,9 @@
+tuxpuck (0.8.2-11) unstable; urgency=medium
+
+  * Build-depend on the native libfreetype6-dev dependency. (Closes: #893633)
+
+ -- Markus Koschany <apo@debian.org>  Tue, 05 Jan 2021 22:39:11 +0100
+
 tuxpuck (0.8.2-10) unstable; urgency=medium
 
   * Fix FTCBFS:
