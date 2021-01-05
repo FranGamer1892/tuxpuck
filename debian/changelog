@@ -1,3 +1,13 @@
+tuxpuck (0.8.2-10) unstable; urgency=medium
+
+  * Fix FTCBFS:
+      - Build the utils folder with the build architecture compiler.
+      - Remove dependency on sdl from utils/*.c.
+      - Switch the freetype dependency to the build architecture.
+    Thanks to Helmut Grohne for the patch. (Closes: #893633)
+
+ -- Markus Koschany <apo@debian.org>  Tue, 05 Jan 2021 13:41:13 +0100
+
 tuxpuck (0.8.2-9) unstable; urgency=medium
 
   * Switch to debhelper-compat = 13.
