@@ -6,7 +6,7 @@ Uploaders:
  Markus Koschany <apo@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
- libfreetype6-dev,
+ libfreetype6-dev:native,
  libjpeg-dev,
  libpng-dev,
  libsdl1.2-dev,
