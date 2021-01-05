@@ -3,3 +3,4 @@ buffer-overflow.patch
 libpng-transition.patch
 FTBFS-with-fread.patch
 clang-FTBFS.patch
+cross.patch
