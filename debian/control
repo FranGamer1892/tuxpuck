@@ -11,7 +11,7 @@ Build-Depends:
  libpng-dev,
  libsdl1.2-dev,
  libvorbis-dev
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/games-team/tuxpuck.git
 Vcs-Browser: https://salsa.debian.org/games-team/tuxpuck
 Homepage: https://wiki.debian.org/Games/TuxPuck
