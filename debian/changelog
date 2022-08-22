@@ -1,3 +1,11 @@
+tuxpuck (0.8.2-12) unstable; urgency=medium
+
+  * Declare compliance with Debian Policy 4.6.1.
+  * Remove debian/watch because the upstream project website has been gone a
+    long time ago.
+
+ -- Markus Koschany <apo@debian.org>  Tue, 23 Aug 2022 00:00:46 +0200
+
 tuxpuck (0.8.2-11) unstable; urgency=medium
 
   * Build-depend on the native libfreetype6-dev dependency. (Closes: #893633)
